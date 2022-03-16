@@ -122,7 +122,95 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="396.92307692307691" y="39.810426540284361"/>
+            <point key="canvasLocation" x="-1848" y="197"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rJb-q9-gtj">
+            <objects>
+                <viewController id="3kb-fk-LvS" customClass="ViewController" customModule="registermail_MYOmer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wLk-4W-MBS">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cps-Sy-fH0">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1f-Cr-r6p">
+                                        <rect key="frame" x="43" y="83" width="304" height="47"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="47" id="JfU-TM-40K"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="skip &gt;">
+                                            <fontDescription key="titleFontDescription" name="ArialMT" family="Arial" pointSize="18"/>
+                                            <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Register your account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="574-Te-L5E">
+                                        <rect key="frame" x="30" y="235" width="330" height="29.333333333333314"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="26"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Receive reminders and snippets of the daily omer exercises directly in your inbox." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rwj-tP-gyF">
+                                        <rect key="frame" x="43" y="300.33333333333331" width="304" height="89.666666666666686"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u9r-gD-lJ3">
+                                        <rect key="frame" x="55" y="426" width="281" height="57"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="57" id="9sD-I8-711"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aut-g9-Wek">
+                                        <rect key="frame" x="0.0" y="720" width="390" height="124"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="124" id="PqT-5P-gFY"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Next &gt;">
+                                            <fontDescription key="titleFontDescription" name="Arial-BoldMT" family="Arial" pointSize="25"/>
+                                            <color key="baseBackgroundColor" red="0.32156862749999998" green="0.18039215689999999" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.25882352939999997" green="0.70980392160000005" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Rwj-tP-gyF" firstAttribute="top" secondItem="574-Te-L5E" secondAttribute="bottom" constant="36" id="1Ha-Dr-oSE"/>
+                                    <constraint firstAttribute="trailing" secondItem="G1f-Cr-r6p" secondAttribute="trailing" constant="43" id="1iE-3x-ujE"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rwj-tP-gyF" secondAttribute="trailing" constant="43" id="4rj-3r-rLZ"/>
+                                    <constraint firstItem="u9r-gD-lJ3" firstAttribute="top" secondItem="Rwj-tP-gyF" secondAttribute="bottom" constant="36" id="5FK-6g-Ryf"/>
+                                    <constraint firstItem="574-Te-L5E" firstAttribute="top" secondItem="G1f-Cr-r6p" secondAttribute="bottom" constant="105" id="AQ4-6F-zBI"/>
+                                    <constraint firstItem="G1f-Cr-r6p" firstAttribute="top" secondItem="cps-Sy-fH0" secondAttribute="top" constant="83" id="Ah1-yG-R9t"/>
+                                    <constraint firstAttribute="bottom" secondItem="aut-g9-Wek" secondAttribute="bottom" id="Dky-8g-vlS"/>
+                                    <constraint firstItem="Rwj-tP-gyF" firstAttribute="leading" secondItem="cps-Sy-fH0" secondAttribute="leading" constant="43" id="Ix8-Sv-oa5"/>
+                                    <constraint firstItem="aut-g9-Wek" firstAttribute="leading" secondItem="cps-Sy-fH0" secondAttribute="leading" id="ZrW-4s-gH5"/>
+                                    <constraint firstItem="G1f-Cr-r6p" firstAttribute="leading" secondItem="cps-Sy-fH0" secondAttribute="leading" constant="43" id="b78-0P-RQ8"/>
+                                    <constraint firstAttribute="trailing" secondItem="u9r-gD-lJ3" secondAttribute="trailing" constant="54" id="dGY-t9-fZ9"/>
+                                    <constraint firstAttribute="trailing" secondItem="574-Te-L5E" secondAttribute="trailing" constant="30" id="gaI-Ro-6uj"/>
+                                    <constraint firstItem="u9r-gD-lJ3" firstAttribute="leading" secondItem="cps-Sy-fH0" secondAttribute="leading" constant="55" id="i1Y-4V-f2B"/>
+                                    <constraint firstAttribute="trailing" secondItem="aut-g9-Wek" secondAttribute="trailing" id="ik9-Tp-i7Q"/>
+                                    <constraint firstItem="574-Te-L5E" firstAttribute="leading" secondItem="cps-Sy-fH0" secondAttribute="leading" constant="30" id="xfQ-7c-HaP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jgL-Ov-SgP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cps-Sy-fH0" firstAttribute="top" secondItem="wLk-4W-MBS" secondAttribute="top" id="Ul5-k5-LSK"/>
+                            <constraint firstAttribute="bottom" secondItem="cps-Sy-fH0" secondAttribute="bottom" id="d8l-gn-ccw"/>
+                            <constraint firstItem="cps-Sy-fH0" firstAttribute="leading" secondItem="jgL-Ov-SgP" secondAttribute="leading" id="lwU-aU-uEJ"/>
+                            <constraint firstItem="cps-Sy-fH0" firstAttribute="trailing" secondItem="jgL-Ov-SgP" secondAttribute="trailing" id="uRb-1N-fJG"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xRK-Hz-Vys" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-422" y="123"/>
         </scene>
     </scenes>
     <resources>
